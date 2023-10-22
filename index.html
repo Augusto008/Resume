@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Áquila Augusto A. trindade</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Explora&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap" rel="stylesheet"> 
+
+    <!-- Styles -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/header.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+    <link href="assets/css/slider.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'lora', serif;
+        }
+    </style>
+
+    <!-- Sweet Alert -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/scroller.js"></script>
+
+    <!-- Bootstrap 5.3.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+
+        <nav id="top-menu" class="col-12 m-0 p-0 py-5 navbar navbar-expand-lg border-bottom border-2 border-secondary d-flex">
+            <div class="m-0 p-0 container-fluid d-flex justify-content-center">
+                <a href="/" class="navbar-brand m-0 p-0">
+                    <h1 class="main-title p-2 fw-bolder">Resume</h1>
+                </a>
+            </div>
+            <div class="row m-0 p-0 container-fluid">
+                <ul class="m-0 p-0 pb-2 border-bottom d-flex justify-content-around align-items-center">
+                    <li class="nav-item"><a class="top-menu-item rounded-top p-1 pb-2" href="#top-menu">Main</a></li>
+                    <li class="nav-item"><a class="top-menu-item rounded-top p-1 pb-2" href="#about-me">About</a></li>
+                    <li class="nav-item"><a class="top-menu-item rounded-top p-1 pb-2" href="#projects-container">Projects</a></li>
+                    <li class="nav-item"><a class="top-menu-item rounded-top p-1 pb-2" href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <section class="mt-5">
+        <div id="about-me" class="my-5 py-5 text-light d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex flex-column" style="width: 60%;">
+                <h2 class="subtitles mb-4 text-center text-primary fw-bolder">Who am I?</h2>
+                <div id="about">
+                    <div class="about-info">
+                        <div id="description" class="info-text">
+                            <p class="justify">
+                                &ensp;&ensp;Hi, My name is <strong>Áquila Augusto Anhaia Trindade</strong>, but you can call me <strong>Áquila</strong> or <strong>Augusto</strong>, as you prefer. I'm fearless 28 years old <strong>full stack developer</strong> full of ideas and curiosity.
+                                <br>
+                                &ensp;&ensp;Currently I'm focusing on WEB development and REST APIs, but I have much more to show you.
+                                <br>
+                                &ensp;&ensp;This page contains all information that you need to know me: professional skills, personal experiences, hobbies and more.
+                            </p>
+                            <div class="px-2 d-flex flex-wrap row row-cols-2 row-cols-md-3 row-cols-xl-6">
+                                <div class="col-6 col-md-4 col-xl-2 p-1">
+                                    <button class="my-index btn btn-dark btn-outline-light bg-gradient w-100" type="button" data-bs-toggle="collapse" data-bs-target="#biography" aria-expanded="false" aria-controls="biography">Biography</button>
+                                </div>
+                                <div class="col-6 col-md-4 col-xl-2 p-1">
+                                    <button class="my-index btn btn-dark btn-outline-light bg-gradient w-100" type="button" data-bs-toggle="collapse" data-bs-target="#idioms" aria-expanded="false" aria-controls="idioms">Idioms</button>
+                                </div>
+                                <div class="col-6 col-md-4 col-xl-2 p-1">
+                                    <button class="my-index btn btn-dark btn-outline-light bg-gradient w-100" type="button" data-bs-toggle="collapse" data-bs-target="#education" aria-expanded="false" aria-controls="education">Education</button>
+                                </div>
+                                <div class="col-6 col-md-4 col-xl-2 p-1">
+                                    <button class="my-index btn btn-dark btn-outline-light bg-gradient w-100" type="button" data-bs-toggle="collapse" data-bs-target="#soft-skills" aria-expanded="false" aria-controls="soft-skills">Soft Skills</button>
+                                </div>
+                                <div class="col-6 col-md-4 col-xl-2 p-1">
+                                    <button class="my-index btn btn-dark btn-outline-light bg-gradient w-100" type="button" data-bs-toggle="collapse" data-bs-target="#hard-skills" aria-expanded="false" aria-controls="hard-skills">Hard Skills</button>
+                                </div>
+                                <div class="col-6 col-md-4 col-xl-2 p-1">
+                                    <button class="my-index btn btn-dark btn-outline-light bg-gradient w-100" type="button" data-bs-toggle="collapse" data-bs-target="#experience" aria-expanded="false" aria-controls="experience">Experience</button>
+                                </div>
+                            </div>
+                            <div id="personal" class="accordion">
+                                <div id="biography" class="about-info bg-dark bg-gradient border-0 text-light p-3 rounded-4 accordion-item accordion-collapse collapse" data-bs-parent="#personal">
+                                    <h3 class="info-title mb-4">Biografia</h3>
+                                    <p class="justify" style="text-align: justify;">&ensp;&ensp;Busco uma oportunidade para continuar meu aprendizado e para crescer, expandir meu conhecimento e poder contribuir com esta empresa. No futuro, quero ser a resposta para todos os problemas, liderar meus próprios projetos e me tornar um exemplo a ser seguido por meus colegas de profissão</p>
+                                </div>
+                                <div id="idioms" class="about-info bg-dark bg-gradient border-0 text-light p-3 rounded-4 accordion-item accordion-collapse collapse" data-bs-parent="#personal">
+                                    <h3 class="info-title mb-4">Idiomas</h3>
+                                    <div class="info-text">
+                                        <ul>
+                                            <li>
+                                                <p class="m-0 p-0">Fluent</p>
+                                                <ul>
+                                                    <li>Portuguese</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <p class="m-0 p-0">Advanced</p>
+                                                <ul>
+                                                    <li>English</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <p class="m-0 p-0">Básico</p>
+                                                <ul>
+                                                    <li>Japanese</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <p class="m-0 p-0">Estudando</p>
+                                                <ul>
+                                                    <li>Arabic</li>
+                                                    <li>Latim</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="education" class="about-info bg-dark bg-gradient border-0 text-light p-3 rounded-4 accordion-item accordion-collapse collapse" data-bs-parent="#personal">
+                                    <h3 class="info-title mb-4">Education</h3>
+                                    <div class="info-text">
+                                        <ul>
+                                            <li class="mb-3">BACHELOR IN INFORMATION SYSTEMS | CURRENTLY | UNIPAR (UNIV. PARANAENSE)</li>
+                                            <li class="mb-3">HIGH SCHOOL | 2015 | E. E. E. B. DR. LAURO DORNELLES</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="soft-skills" class="about-info bg-dark bg-gradient border-0 text-light p-3 rounded-4 accordion-item accordion-collapse collapse" data-bs-parent="#personal">
+                                    <h3 class="info-title mb-4">Soft Skills</h3>
+                                    <div class="info-text">
+                                        <ul class="my-list row row-cols-1 row-cols-md-2 row-cols-xl-3">
+                                            <li class="col py-1 px-2">Proactivity</li>
+                                            <li class="col py-1 px-2">Positivity</li>
+                                            <li class="col py-1 px-2">Criativity</li>
+                                            <li class="col py-1 px-2">Problem Solving Ability</li>
+                                            <li class="col py-1 px-2">Critical Thinking</li>
+                                            <li class="col py-1 px-2">Result Orientation</li>
+                                            <li class="col py-1 px-2">Emocional Control</li>
+                                            <li class="col py-1 px-2">Flexibility</li>
+                                            <li class="col py-1 px-2">Resiliency</li>
+                                            <li class="col py-1 px-2">Ethic</li>
+                                            <li class="col py-1 px-2">Communication</li>
+                                            <li class="col py-1 px-2">Team Work</li>
+                                            <li class="col py-1 px-2">Empathy</li>
+                                            <li class="col py-1 px-2">Emocional Intelligence</li>
+                                            <li class="col py-1 px-2">Collaboration</li>
+                                            <li class="col py-1 px-2">Overview</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="hard-skills" class="about-info bg-dark bg-gradient border-0 text-light p-3 rounded-4 accordion-item accordion-collapse collapse" data-bs-parent="#personal">
+                                    <h3 class="info-title mb-4">Hard Skills</h3>
+                                    <div class="info-text">
+                                        <ul>
+                                            <li class="mb-3">Programming Logics</li>
+                                            <li class="mb-3">
+                                                Programming Languages
+                                                <ul class="list-group list-group-horizontal flex-wrap">
+                                                    <li class="list-group-item" title="C">
+                                                        <img class="m-auto" src="assets/icons/c.svg" width="auto" height="40px" alt="C">
+                                                    </li>
+                                                    <li class="list-group-item" title="Java">
+                                                        <img class="m-auto" src="assets/icons/java.svg" width="auto" height="40px" alt="Java">
+                                                    </li>
+                                                    <li class="list-group-item" title="JavaScript">
+                                                        <img class="m-auto" src="assets/icons/javascript.svg" width="auto" height="40px" alt="JavaScript">
+                                                    </li>
+                                                    <li class="list-group-item" title="PHP">
+                                                        <img class="m-auto" src="assets/icons/php.svg" width="auto" height="40px" alt="PHP">
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mb-3">
+                                                Database
+                                                <ul class="list-group list-group-horizontal flex-wrap">
+                                                    <li class="list-group-item" title="SQL">
+                                                        <img class="m-auto" src="assets/icons/sql.svg" width="auto" height="40px" alt="SQL">
+                                                    </li>
+                                                    <li class="list-group-item" title="PostgreSQL">
+                                                        <img class="m-auto" src="assets/icons/postgres.svg" width="auto" height="40px" alt="PostgreSQL">
+                                                    </li>
+                                                    <li class="list-group-item" title="Prisma">
+                                                        <img class="m-auto" src="assets/icons/prisma-orm.svg" width="auto" height="40px" alt="Prisma">
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mb-3">
+                                                WEB Development
+                                                <ul class="list-group list-group-horizontal flex-wrap">
+                                                    <li class="list-group-item" title="HTML">
+                                                        <img class="m-auto" src="assets/icons/html5.svg" width="auto" height="40px" alt="HTML">
+                                                    </li>
+                                                    <li class="list-group-item" title="CSS">
+                                                        <img class="m-auto" src="assets/icons/css.svg" width="auto" height="40px" alt="CSS">
+                                                    </li>
+                                                    <li class="list-group-item" title="jQuery">
+                                                        <img class="m-auto" src="assets/icons/jquery.svg" width="auto" height="40px" alt="jQuery">
+                                                    </li>
+                                                    <li class="list-group-item" title="RegEx">
+                                                        <img class="m-auto" src="assets/icons/regex.svg" width="auto" height="40px" alt="RegEx">
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mb-3">
+                                                Back End
+                                                <ul class="list-group list-group-horizontal flex-wrap">
+                                                    <li class="list-group-item" title="NodeJS">
+                                                        <img class="m-auto" src="assets/icons/NodeJS.svg" width="auto" height="40px" alt="NodeJS">
+                                                    </li>
+                                                    <li class="list-group-item" title="CRON">
+                                                        <img class="m-auto" src="assets/icons/cron.svg" width="auto" height="40px" alt="CRON">
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mb-3">
+                                                Tools
+                                                <ul class="list-group list-group-horizontal flex-wrap">
+                                                    <li class="list-group-item" title="Laravel">
+                                                        <img class="m-auto" src="assets/icons/laravel.svg" width="auto" height="40px" alt="Laravel">
+                                                    </li>
+                                                    <li class="list-group-item" title="Bootstrap">
+                                                        <img class="m-auto" src="assets/icons/bootstrap.svg" width="auto" height="40px" alt="Bootstrap">
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mb-3">
+                                                Versioning
+                                                <ul class="list-group list-group-horizontal flex-wrap">
+                                                    <li class="list-group-item" title="Git">
+                                                        <img class="m-auto" src="assets/icons/git.svg" width="auto" height="40px" alt="Git">
+                                                    </li>
+                                                    <li class="list-group-item" title="GitHub">
+                                                        <img class="m-auto" src="assets/icons/github.svg" width="auto" height="40px" alt="GitHub">
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="experience" class="about-info bg-dark bg-gradient border-0 text-light p-3 rounded-4 accordion-item accordion-collapse collapse" data-bs-parent="#personal">
+                                    <h3 class="info-title mb-4">Experiências</h3>
+                                    <div class="info-text">
+                                        <ul>
+                                            <li class="mb-3">
+                                                PERSONAL PROJECTS | https://github.com/Augusto008<br>
+                                                · WEB pages · multi languages database · REST API · Mais
+                                            </li>
+                                            <li class="mb-3">
+                                                SYSTEMS DEVELOPMENT ANALYST | TEN BRASIL DISTRIBUIDORA | 02-2023 TO 08-2023<br>
+                                                · WEB development of comercial pages, multi languages database e REST API.
+                                            </li>
+                                            <li class="mb-3">
+                                                JÚNIOR SOFTWARE DEVELOPER (FREELANCE) | TEN BRASIL DISTRIBUIDORA | 01-2023 TO 01-2023<br>
+                                                · WEB development, working mainly on LGPD standardization of company WEB sites.
+                                            </li>
+                                            <li class="mb-3">
+                                                FIBER OPTIC TECHNICIAN (INFRA) | METRONET INFORMÁTICA LTDA. | 01-2021 TO 11-2022<br>
+                                                · Worked on company's fiber optic infrastructure, installing external OTCs (Optic Termination Center) and internet networks in buildings, realizing a fiber fusions and maintaining the network.
+                                            </li>
+                                            <li class="mb-3">
+                                                MEIO OFICIAL (INFRA) | METRONET INFORMÁTICA LTDA. | 05-2019 TO 12-2022<br>
+                                                · Fusion team. Assisted the technician and replaced him in his absence.
+                                            </li>
+                                            <li class="mb-3">
+                                                FIELD ASSISTANT (INFRA) | METRONET INFORMÁTICA LTDA. | 11-2018 TO 04-2019<br>
+                                                · Laying cables and installing external equipments.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects-container" class="py-5">
+            <div class="mt-5 pb-4 d-flex justify-content-center align-items-center">
+                <h2 id="projects" class="subtitles text-center text-primary fw-bolder">Projects:&nbsp;&nbsp;</h2>
+                <select name="project-selector" id="project-selector" class="indicators p-1" autocomplete="false">
+                    <option value="" data-bs-target="#my-projects" data-bs-slide-to="0" aria-current="true" aria-label="project 1">Project 1</option>
+                    <option value="" data-bs-target="#my-projects" data-bs-slide-to="1" aria-label="project 2">Project 2</option>
+                </select>
+            </div>
+            <div id="my-projects" class="carousel mb-5 slide carousel-fade accordion">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card mx-auto col-10">
+                            <div class="row g-0" style="max-height: 320px; height: 32vw;">
+                                <div class="col-4 m-0 p-1 h-100 d-flex justify-content-center align-items-center">
+                                    <img src="assets/images/me.jpg" class="object-fit-contain rounded m-0 p-0 mh-100" alt="Project 1: project 1">
+                                </div>
+                                <div class="col-8 overflow-scroll" style="max-height: 100%;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project 1</h5>
+                                        <p class="card-text">Project Description</p>
+                                        <p class="card-text"><small class="text-body-secondary">Link to Project</small></p>
+                                        <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#proj-1" aria-controls="proj-1">Technical Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="proj-1" class="accordion-collapse collapse" data-bs-parent="#my-projects" style="height: 60vw; overflow: scroll;">
+                                <div class="accordion-body">
+                                    <div id="general-info">
+                                        <h5>This Project was created using:</h5>
+                                        <ul class="row">
+                                            <li>Markup Languages</li>
+                                            <li>Programming Languages</li>
+                                            <li>Frameworks</li>
+                                            <li>APIs</li>
+                                            <li>Dependencies</li>
+                                            <li>Database</li>
+                                            <li>styles</li>
+                                            <li>More</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>                          
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card mx-auto col-10">
+                            <div class="row g-0" style="max-height: 320px; height: 32vw;">
+                                <div class="col-4 m-0 p-1 h-100 d-flex justify-content-center align-items-center">
+                                    <img src="assets/images/me.jpg" class="object-fit-contain rounded m-0 p-0 mh-100" alt="Project 2: project 2">
+                                </div>
+                                <div class="col-8 overflow-scroll" style="max-height: 100%;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project 2</h5>
+                                        <p class="card-text">Project Description</p>
+                                        <p class="card-text"><small class="text-body-secondary">Link to Project</small></p>
+                                        <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#proj-2" aria-controls="proj-2">Technical Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="proj-2" class="accordion-collapse collapse" data-bs-parent="#my-projects" style="height: 60vw; overflow: scroll;">
+                                <div class="accordion-body">
+                                    <div id="general-info">
+                                        <h5>This Project was created using:</h5>
+                                        <ul class="row">
+                                            <li>Markup Languages</li>
+                                            <li>Programming Languages</li>
+                                            <li>Frameworks</li>
+                                            <li>APIs</li>
+                                            <li>Dependencies</li>
+                                            <li>Database</li>
+                                            <li>styles</li>
+                                            <li>More</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+<footer>
+
+    <div id="contacts" class="footer-gradient d-flex justify-content-center align-items-center text-light">
+        <div class="py-5 w-100">
+            <h2 id=contacts-title class="subtitles w-100 mb-4 pb-5 text-center">Contact me</h2>
+            <div id="contacts">
+                <ul class="m-0 p-0 d-flex flex-column justify-content-around">
+                    <li class="mx-2 d-flex justify-content-center">
+                        <a class="calls text-light">
+                            <img src="assets/icons/phone-light-footer.svg" width="20px" height="20px" alt="Phone"> +55 41 9 9245-4189
+                        </a>
+                    </li>
+                    <li class="mx-2 d-flex justify-content-center">
+                        <a class="calls text-light">
+                            <img src="assets/icons/email-light-footer.svg" width="20px" height="20px" alt="Email"> aquila.real0@gmail.com
+                        </a>
+                    </li>
+                    <li class="mx-2 d-flex justify-content-center">
+                        <a class="calls text-light">
+                            <img src="assets/icons/github-light-footer.svg" width="20px" height="20px" alt="GitHub"> https://github.com/Augusto008 
+                        </a>
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    
+</footer>
+</html>
