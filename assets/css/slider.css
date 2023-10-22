@@ -1,0 +1,25 @@
+.mainSlider {
+    margin: auto;
+    max-width: 80vw;
+    height: 120vw;
+    min-height: 200px;
+    max-height: 400px;
+    display: flex;
+    border: solid black 2px;
+}
+
+.projectSlides {
+    width: 20vw;
+    height: 80%;
+    margin: auto;
+    margin: auto 2vw auto 2vw;
+    border: solid gray 2px;
+}
+
+.sliderImages {
+    background-image: linear-gradient(black, gray);
+    border: solid blue 2px;
+    width: 92%;
+    height: 60%;
+    margin: auto;
+}
