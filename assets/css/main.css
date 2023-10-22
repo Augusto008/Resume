@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1A1A1A !important;
+    /* background-image: linear-gradient(to right, #254b43 19%, #1A1A1A 20% 80%, #00774f 81%); */
+}
+
+body .subtitles {
+    text-shadow: black 1px 1px 0;
+}
+
+.justify {
+    text-align: justify !important;
+}
+
+.subtitles {
+    font-weight: bolder;
+}
+
+#projects-container {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0.008));
+}
