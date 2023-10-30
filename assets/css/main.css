@@ -21,7 +21,7 @@ body .subtitles {
 }
 
 #projects-container {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0.008));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 5%, transparent);
 }
 
 #projects-container .card {
