@@ -31,6 +31,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/scroller.js"></script>
+    <script src="assets/js/projects-slider.js"></script>
 
     <!-- Bootstrap 5.3.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -295,80 +296,12 @@
             <div class="mt-5 pb-4 d-flex justify-content-center align-items-center">
                 <h2 id="projects" class="subtitles text-center text-primary fw-bolder">Projects:&nbsp;&nbsp;</h2>
                 <select name="project-selector" id="project-selector" class="indicators p-1" autocomplete="false">
-                    <option value="" data-bs-target="#my-projects" data-bs-slide-to="0" aria-current="true" aria-label="project 1">Project 1</option>
-                    <option value="" data-bs-target="#my-projects" data-bs-slide-to="1" aria-label="project 2">Project 2</option>
+                    
                 </select>
             </div>
             <div id="my-projects" class="carousel mb-5 slide carousel-fade accordion">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card mx-auto col-10">
-                            <div class="row g-0" style="max-height: 320px; height: 32vw;">
-                                <div class="col-4 m-0 p-1 h-100 d-flex justify-content-center align-items-center">
-                                    <img src="assets/images/me.jpg" class="object-fit-contain rounded m-0 p-0 mh-100" alt="Project 1: project 1">
-                                </div>
-                                <div class="col-8 overflow-scroll" style="max-height: 100%;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Project 1</h5>
-                                        <p class="card-text">Project Description</p>
-                                        <p class="card-text"><small class="text-body-secondary">Link to Project</small></p>
-                                        <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#proj" aria-controls="proj">Technical Details</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="proj" class="accordion-collapse collapse" data-bs-parent="#my-projects" style="height: 60vw; overflow: scroll;">
-                                <div class="accordion-body">
-                                    <div id="general-info">
-                                        <h5>This Project was created using:</h5>
-                                        <ul class="row">
-                                            <li>Markup Languages</li>
-                                            <li>Programming Languages</li>
-                                            <li>Frameworks</li>
-                                            <li>APIs</li>
-                                            <li>Dependencies</li>
-                                            <li>Database</li>
-                                            <li>styles</li>
-                                            <li>More</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>                          
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card mx-auto col-10">
-                            <div class="row g-0" style="max-height: 320px; height: 32vw;">
-                                <div class="col-4 m-0 p-1 h-100 d-flex justify-content-center align-items-center">
-                                    <img src="assets/images/me.jpg" class="object-fit-contain rounded m-0 p-0 mh-100" alt="Project 2: project 2">
-                                </div>
-                                <div class="col-8 overflow-scroll" style="max-height: 100%;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Project 2</h5>
-                                        <p class="card-text">Project Description</p>
-                                        <p class="card-text"><small class="text-body-secondary">Link to Project</small></p>
-                                        <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#proj" aria-controls="proj">Technical Details</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="proj" class="accordion-collapse collapse" data-bs-parent="#my-projects" style="height: 60vw; overflow: scroll;">
-                                <div class="accordion-body">
-                                    <div id="general-info">
-                                        <h5>This Project was created using:</h5>
-                                        <ul class="row">
-                                            <li>Markup Languages</li>
-                                            <li>Programming Languages</li>
-                                            <li>Frameworks</li>
-                                            <li>APIs</li>
-                                            <li>Dependencies</li>
-                                            <li>Database</li>
-                                            <li>styles</li>
-                                            <li>More</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>                          
-                        </div>
-                    </div>
+                <div id="projects-slider" class="carousel-inner">
+                    
                 </div>
             </div>
         </div>
