@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "description": "Web crawler with php",
                 "img": "assets/images/me.jpg",
                 "technical": {
-                    "title" : "Programming languages",
-                    "text" : "PHP"
+                    "Programming languages" : "PHP",
                 }
             },
             "email_sender": {
@@ -18,8 +17,56 @@ document.addEventListener("DOMContentLoaded", function() {
                 "description": "",
                 "img": "assets/images/me.jpg",
                 "technical": {
-                    "title" : "Programming languages",
-                    "text" : "Javascript"
+                    "Markup Languages": "HTML",
+                    "Stylesheets": "CSS",
+                    "Programming languages": "JavaScript",
+                    "Database": "SQL | PostgreSQL | Prisma",
+                }
+            },
+            "react_nextjs": {
+                "link": "https://github.com/Augusto008/react_nextjs",
+                "description": "project using react and nextjs",
+                "img": "assets/images/me.jpg",
+                "technical": {
+
+                }
+            },
+            "C-Language": {
+                "link": "https://github.com/Augusto008/C-Language",
+                "description": "",
+                "img": "assets/images/me.jpg",
+                "technical": {
+
+                }
+            },
+            "gerador-de-curriculos": {
+                "link": "https://github.com/Augusto008/gerador-de-curriculos",
+                "description": "",
+                "img": "assets/images/me.jpg",
+                "technical": {
+
+                }
+            },
+            "projetoTenBrasil": {
+                "link": "https://github.com/Augusto008/projetoTenBrasil",
+                "description": "",
+                "img": "assets/images/me.jpg",
+                "technical": {
+
+                }
+            },
+            "Resume": {
+                "link": "https://github.com/Augusto008/Resume",
+                "description": "",
+                "img": "assets/images/me.jpg",
+                "technical": {
+                    "Markup Languages": "HTML",
+                    "Programming Languages": "Javascript",
+                    "Frameworks": "Bootstrap",
+                    "APIs": "",
+                    "Dependencies": "",
+                    "Database": "",
+                    "Stylesheet": "CSS",
                 }
             }
         };
@@ -44,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <div class="card-body">
                                     <h5 class="card-title">${project}</h5>
                                     <p class="card-text">${projects[project].description}</p>
-                                    <a class="card-text" href="${projects[project].link}"><small class="text-body-secondary">Link to Project</small></a><br>
+                                    <a class="card-text text-decoration-none" href="${projects[project].link}"><small class="text-dark">Link to Project</small></a><br>
                                     <button class="mt-4 btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#proj" aria-controls="proj">Technical Details</button>
                                 </div>
                             </div>
@@ -53,21 +100,19 @@ document.addEventListener("DOMContentLoaded", function() {
                             <div class="accordion-body">
                                 <div id="general-info">
                                     <h5>This Project was created using:</h5>
-                                    <ul class="row">
-                                        <li>Markup Languages</li>
-                                        <li>Programming Languages</li>
-                                        <li>Frameworks</li>
-                                        <li>APIs</li>
-                                        <li>Dependencies</li>
-                                        <li>Database</li>
-                                        <li>styles</li>
-                                        <li>More</li>
+                                    <ul id="${project}-list" class="row">
+                                        
                                     </ul>
                                 </div>
                             </div>
                         </div>                          
                     </div>
                 </div>`;
+
+            for (let item in projects[project].technical) {
+                let list = document.getElementById(`${project}-list`);
+                list.innerHTML += `<li><h6>${item}</h6><p>${projects[project].technical[item]}</p></li>`;
+            }
         }
     } catch (error) {
         console.log(error.message);
