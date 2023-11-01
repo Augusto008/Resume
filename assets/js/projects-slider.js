@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var projects = { 
             "web_crawler_1st_attempt": {
                 "link": "https://github.com/Augusto008/web_crawler_1st_attempt",
+                "video": "",
                 "description": "Web crawler with php",
                 "img": "assets/images/me.jpg",
                 "technical": {
@@ -14,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "email_sender": {
                 "link": "https://github.com/Augusto008/email_sender",
+                "video": "",
                 "description": "",
                 "img": "assets/images/me.jpg",
                 "technical": {
@@ -25,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "react_nextjs": {
                 "link": "https://github.com/Augusto008/react_nextjs",
+                "video": "",
                 "description": "project using react and nextjs",
                 "img": "assets/images/me.jpg",
                 "technical": {
@@ -33,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "C-Language": {
                 "link": "https://github.com/Augusto008/C-Language",
+                "video": "",
                 "description": "",
                 "img": "assets/images/me.jpg",
                 "technical": {
@@ -41,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "gerador-de-curriculos": {
                 "link": "https://github.com/Augusto008/gerador-de-curriculos",
+                "video": "",
                 "description": "",
                 "img": "assets/images/me.jpg",
                 "technical": {
@@ -49,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "projetoTenBrasil": {
                 "link": "https://github.com/Augusto008/projetoTenBrasil",
+                "video": "",
                 "description": "",
                 "img": "assets/images/me.jpg",
                 "technical": {
@@ -57,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "Resume": {
                 "link": "https://github.com/Augusto008/Resume",
+                "video": "",
                 "description": "",
                 "img": "assets/images/me.jpg",
                 "technical": {
@@ -74,10 +81,14 @@ document.addEventListener("DOMContentLoaded", function() {
         for (const project in projects) {
             let count = document.getElementsByClassName("projects");
             let show = "";
+            let video = "";
             let aria_current = "";
             if(count.length === 0) {
                 show = "active";
                 aria_current = "aria_current=\"true\"";
+            }
+            if(projects[project].video !== "") {
+                video = ` | <a class="card-text text-decoration-none text-dark" target="_blank" href="${projects[project].video}">Project Video</a>`;
             }
 
             selector.innerHTML += `<option value="${project}" data-bs-target="#my-projects" data-bs-slide-to="${selector.length}" aria-label="${project}" ${aria_current}>${project}</option>`;
@@ -91,8 +102,8 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <div class="card-body">
                                     <h5 class="card-title">${project}</h5>
                                     <p class="card-text">${projects[project].description}</p>
-                                    <a class="card-text text-decoration-none" href="${projects[project].link}"><small class="text-dark">Link to Project</small></a><br>
-                                    <button class="mt-4 btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#proj" aria-controls="proj">Technical Details</button>
+                                    <p><small class="text-dark"><a class="card-text text-decoration-none text-light" target="_blank" href="${projects[project].link}">Project Link</a>${video}</small></p>
+                                    <button class="mt-4 btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#proj" aria-controls="proj">Technical Details</button>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     </ul>
                                 </div>
                             </div>
-                        </div>                          
+                        </div>
                     </div>
                 </div>`;
 
