@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <h5 class="card-title">${project}</h5>
                                     <p class="card-text">${projects[project].description}</p>
                                     <p><small class="text-dark"><a class="card-text text-decoration-none text-light" target="_blank" href="${projects[project].link}">Project Link</a>${video}</small></p>
-                                    <button class="mt-4 btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#proj" aria-controls="proj">Technical Details</button>
+                                    <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#proj" aria-controls="proj">Technical Details</button>
                                 </div>
                             </div>
                         </div>
