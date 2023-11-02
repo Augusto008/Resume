@@ -53,15 +53,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 }
             },
-            "projetoTenBrasil": {
-                "link": "https://github.com/Augusto008/projetoTenBrasil",
-                "video": "",
-                "description": "",
-                "img": "assets/images/me.jpg",
-                "technical": {
-
-                }
-            },
             "Resume": {
                 "link": "https://github.com/Augusto008/Resume",
                 "video": "",
