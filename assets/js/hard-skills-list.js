@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </ul>
             </li>`;
 
-            if(skills[skill]) {
+            if(skills[skill] !== "") {
                 let list_content = document.getElementById(`${skill}-list`);
                 for(let item in skills[skill]) {
                     list_content.innerHTML += `<li class="list-group-item" title="${item}">
