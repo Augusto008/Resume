@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
             "email_sender": {
                 "link": "https://github.com/Augusto008/email_sender",
                 "video": "",
-                "description": "",
+                "description": `&#160&#160&#160&#160It's an API that can send emails automatically from multiple email addresses, registering the successes and failures in the database.<br>
+                                &#160&#160&#160&#160Templates and the data the will be added to them are stored in the database and, when requested, will be revalidated and sended. If something go wrong, the status will point it and the error will be stored.`,
                 "img": "assets/images/me.jpg",
                 "technical": {
                     "Markup Languages": "HTML",
