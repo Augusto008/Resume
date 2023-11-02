@@ -118,7 +118,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
     } catch (error) {
-        console.log(error.message);
+        const projects = document.getElementById("my-projects");
+        projects.innerHTML = "<h1 class='text-center'>Something is go wrong.<br>Come back another time.</h1>";
     }
     
 });
