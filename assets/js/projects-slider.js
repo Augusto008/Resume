@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 show = "active";
                 aria_current = "aria_current=\"true\"";
             }
-            if(projects[project].video !== "") {
+            if(projects[project].video) {
                 video = ` | <a class="card-text text-decoration-none text-dark" target="_blank" href="${projects[project].video}">Project Video</a>`;
             }
 
