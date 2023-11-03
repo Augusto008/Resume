@@ -37,13 +37,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
         for (let skill in skills) {
             list.innerHTML += `<li class="mb-3">
-                ${skill}
-                <ul id="${skill}-list" class="list-group list-group-horizontal flex-wrap">
-                
-                </ul>
-            </li>`;
+                    ${skill}
+                    <ul id="${skill}-list" class="list-group list-group-horizontal flex-wrap">
+                    
+                    </ul>
+                </li>`;
 
-            if(skills[skill] !== "") {
+            if(skills[skill]) {
                 let list_content = document.getElementById(`${skill}-list`);
                 for(let item in skills[skill]) {
                     list_content.innerHTML += `<li class="list-group-item" title="${item}">
