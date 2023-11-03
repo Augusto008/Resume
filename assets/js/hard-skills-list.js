@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "Java": "java.svg",
                 "JavaScript": "javascript.svg",
                 "PHP": "php.svg",
+                "Pascal": ""
             },
             "Database": {
                 "SQL": "sql.svg",
