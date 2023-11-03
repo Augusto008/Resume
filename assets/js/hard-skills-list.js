@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "Tools": {
                 "Laravel": "laravel.svg",
                 "Bootstrap": "bootstrap.svg",
+                "React": "react.svg",
             },
             "Versioning": {
                 "Git": "git.svg",
