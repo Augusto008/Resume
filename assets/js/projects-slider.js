@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "web_crawler_1st_attempt": {
                 "link": "https://github.com/Augusto008/web_crawler_1st_attempt",
                 "video": "",
-                "description": "Web crawler with php",
+                "description": "My first attempt building a web crawler with php",
                 "img": "assets/images/me.jpg",
                 "technical": {
                     "Programming languages" : "PHP",
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "react_nextjs": {
                 "link": "https://github.com/Augusto008/react_nextjs",
                 "video": "",
-                "description": "project using react and nextjs",
+                "description": "React and nextjs tests",
                 "img": "assets/images/me.jpg",
                 "technical": {
 
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "C-Language": {
                 "link": "https://github.com/Augusto008/C-Language",
                 "video": "",
-                "description": "",
+                "description": "C language fundaments tests",
                 "img": "assets/images/me.jpg",
                 "technical": {
 
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "gerador-de-curriculos": {
                 "link": "https://github.com/Augusto008/gerador-de-curriculos",
                 "video": "",
-                "description": "",
+                "description": "My first try to create a resume generator",
                 "img": "assets/images/me.jpg",
                 "technical": {
 
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "Resume": {
                 "link": "https://github.com/Augusto008/Resume",
                 "video": "",
-                "description": "",
+                "description": "This page codes",
                 "img": "assets/images/me.jpg",
                 "technical": {
                     "Markup Languages": "HTML",
