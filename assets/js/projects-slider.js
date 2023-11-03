@@ -114,7 +114,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
             for (let item in projects[project].technical) {
                 let list = document.getElementById(`${project}-list`);
-                list.innerHTML += `<li><h6>${item}</h6><p>${projects[project].technical[item]}</p></li>`;
+                if (projects[project].technical[item]) {
+                    list.innerHTML += `<li><h6>${item}</h6><p>${projects[project].technical[item]}</p></li>`;
+                }
             }
         }
     } catch (error) {
