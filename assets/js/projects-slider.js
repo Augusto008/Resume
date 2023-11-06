@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "link": "https://github.com/Augusto008/C-Language",
                 "video": "",
                 "description": "C language fundaments tests",
-                "img": "assets/images/me.jpg",
+                "img": "assets/icons/c.svg",
                 "technical": {
 
                 }
