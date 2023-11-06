@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "description": "C language fundaments tests",
                 "img": "assets/icons/c.svg",
                 "technical": {
-
+                    "Programming languages": "C language",
                 }
             },
             "gerador-de-curriculos": {
