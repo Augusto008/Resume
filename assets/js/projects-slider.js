@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "link": "https://github.com/Augusto008/web_crawler_1st_attempt",
                 "video": "",
                 "description": "My first attempt building a web crawler with php",
-                "img": "assets/icons/_spider-web-crawler.svg",
+                "img": "assets/icons/spider-web-crawler.svg",
                 "technical": {
                     "Programming languages" : "PHP",
                 }
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "link": "https://github.com/Augusto008/react_nextjs",
                 "video": "",
                 "description": "React and nextjs tests",
-                "img": "assets/icons/_react-nextjs.svg",
+                "img": "assets/icons/react-nextjs.svg",
                 "technical": {
 
                 }
