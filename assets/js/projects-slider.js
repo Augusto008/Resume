@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "link": "https://github.com/Augusto008/gerador-de-curriculos",
                 "video": "",
                 "description": "My first try to create a resume generator",
-                "img": "assets/images/me.jpg",
+                "img": "assets/icons/resume.svg",
                 "technical": {
 
                 }
