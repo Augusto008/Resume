@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "Back End": {
                 "NodeJS": "nodejs.svg",
+                "NextJS": "nextjs.svg",
                 "CRON": "cron.svg",
             },
             "Tools": {
