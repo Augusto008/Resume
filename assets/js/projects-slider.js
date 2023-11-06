@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "link": "https://github.com/Augusto008/web_crawler_1st_attempt",
                 "video": "",
                 "description": "My first attempt building a web crawler with php",
-                "img": "assets/icons/crawler.svg",
+                "img": "assets/icons/_spider-web-crawler.svg",
                 "technical": {
                     "Programming languages" : "PHP",
                 }
