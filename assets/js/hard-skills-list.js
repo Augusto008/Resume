@@ -37,6 +37,33 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         };
 
+        for (const list in skills) {
+            if (typeof skills[list] === 'object') {
+                const skillsList = skills[list];
+                const sortedSkillsList = {};
+        
+                // Convert json to key-value array
+                const skillsListArray = Object.entries(skillsList);
+        
+                // Organize by keywords
+                skillsListArray.sort((a, b) => a[0].localeCompare(b[0]));
+        
+                // Convert array to json
+                skillsListArray.forEach(([key, value]) => {
+                    sortedSkillsList[key] = value;
+                });
+        
+                // Update the father object
+                skills[list] = sortedSkillsList;
+            }
+        }
+
+        // const key_value_skills = Object.entries(skills);
+        // key_value_skills.sort((a, b) => a[0].localeCompare(b[0]));
+        // const sortedSkills = Object.fromEntries(key_value_skills);
+
+        // console.log(sortedSkills);
+
         for (let skill in skills) {
             list.innerHTML += `<li class="mb-3">
                     ${skill}
