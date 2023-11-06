@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="card mx-auto col-10">
                         <div class="row g-0" style="max-height: 320px; height: 32vw;">
                             <div class="col-4 m-0 p-1 h-100 d-flex justify-content-center align-items-center">
-                                <img src="${projects[project].img}" class="object-fit-contain rounded m-0 p-0 mh-100" alt="${project}">
+                                <img src="${projects[project].img}" class="object-fit-contain rounded m-0 p-0 w-100 h-100 mw-100 mh-100" alt="${project}">
                             </div>
                             <div class="col-8 overflow-scroll" style="max-height: 100%;">
                                 <div class="card-body">
