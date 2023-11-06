@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "link": "https://github.com/Augusto008/react_nextjs",
                 "video": "",
                 "description": "React and nextjs tests",
-                "img": "assets/images/me.jpg",
+                "img": "assets/icons/_react_nextjs.svg",
                 "technical": {
 
                 }
