@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "link": "https://github.com/Augusto008/Resume",
                 "video": "",
                 "description": "This page codes",
-                "img": "assets/images/me.jpg",
+                "img": "assets/icons/right-employee.svg",
                 "technical": {
                     "Markup Languages": "HTML",
                     "Programming Languages": "Javascript",
