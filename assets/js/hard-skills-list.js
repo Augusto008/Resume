@@ -60,12 +60,6 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
 
-        // const key_value_skills = Object.entries(skills);
-        // key_value_skills.sort((a, b) => a[0].localeCompare(b[0]));
-        // const sortedSkills = Object.fromEntries(key_value_skills);
-
-        // console.log(sortedSkills);
-
         for (let skill in skills) {
             list.innerHTML += `<li class="mb-3">
                     ${skill}
