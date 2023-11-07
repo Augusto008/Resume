@@ -20,6 +20,13 @@ img {
     max-height: 100%;
 }
 
+#myself {
+    height: 160px;
+    background-image: radial-gradient(circle closest-corner at center 100%, #3e3e3e, transparent 50%);
+    background-size: 150%;
+    background-position: center;
+}
+
 .justify {
     text-align: justify !important;
 }
