@@ -69,8 +69,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
         };
+        
+        const key_value_projects = Object.entries(projects);
+        key_value_projects.sort((a, b) => a[0].localeCompare(b[0]));
+        sort_projects = Object.fromEntries(key_value_projects);
     
-        for (const project in projects) {
+        for (const project in sort_projects) {
             let count = document.getElementsByClassName("projects");
             let show = "";
             let video = "";
