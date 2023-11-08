@@ -22,8 +22,9 @@ img {
 
 #myself {
     height: 160px;
-    background-image: radial-gradient(circle closest-corner at center 100%, #3e3e3e, transparent 50%);
-    background-size: 150%;
+    background-image: radial-gradient(circle at center 100%, #3a6a5f, transparent 50%);
+    background-size: 560px;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
