@@ -43,19 +43,11 @@ document.addEventListener("DOMContentLoaded", function() {
             if (typeof skills[list] === 'object') {
                 const skillsList = skills[list];
                 const sortedSkillsList = {};
-        
-                // Convert json to key-value array
                 const skillsListArray = Object.entries(skillsList);
-        
-                // Organize by keywords
                 skillsListArray.sort((a, b) => a[0].localeCompare(b[0]));
-        
-                // Convert array to json
                 skillsListArray.forEach(([key, value]) => {
                     sortedSkillsList[key] = value;
                 });
-        
-                // Update the father object
                 skills[list] = sortedSkillsList;
             }
         }
