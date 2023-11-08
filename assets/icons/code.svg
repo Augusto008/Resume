@@ -1,43 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 width="800px" height="800px" viewBox="0 0 32 32" xml:space="preserve">
+
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 32 32">
 <style type="text/css">
-	.avocado_een{fill:#231F20;}
-	.avocado_twee{fill:#3D3935;}
-	.avocado_negentien{fill:#E0A838;}
-	.avocado_twintig{fill:#EAD13F;}
-	.avocado_acht{fill:#A3AEB5;}
-	.avocado_zeven{fill:#788287;}
-	.avocado_tien{fill:#C3CC6A;}
-	.st0{fill:#FFFAEE;}
-	.st1{fill:#716558;}
-	.st2{fill:#DBD2C1;}
-	.st3{fill:#D1712A;}
-	.st4{fill:#CC4121;}
-	.st5{fill:#8D3E93;}
-	.st6{fill:#248EBC;}
-	.st7{fill:#6F9B45;}
-	.st8{fill:#AF9480;}
+	.code_avocado{fill:#C3CC6A;}
+	.code_orange{fill:#E0A838;}
+	.code_mango{fill:#EAD13F;}
+	.code_light_gray{fill:#A3AEB5;}
+	.code_gray{fill:#788287;}
+	.code_dark{fill:#000000;}
 </style>
 <g>
-	<g>
-		<rect x="0.5" y="4.5" class="avocado_twee" width="31" height="21"/>
-	</g>
-	<g>
-		<path class="avocado_acht" d="M0.5,4.5v21h13v4h6v-4h12v-21H0.5z M30,24H2V6h28V24z"/>
-	</g>
-	<rect x="13.5" y="25.5" class="avocado_zeven" width="6" height="1.5"/>
-	<path class="avocado_een" d="M32,26V4H0v22h13v3h-1v1h9v-1h-1v-3H32z M1,25V5h30v20H1z M19,29h-5v-3h5V29z"/>
-	<path class="avocado_tien" d="M9,10H6V9h3V10z M7,11v1h3v-1H7z M7,18h3v-1H7V18z M6,20h3v-1H6V20z"/>
+	<path class="code_avocado" 
+		d="M0,2H0V1h3V2z 
+			M1,3v1h3v-1H7z 
+			M1,10h0v-1H4V10z 
+			M0,12h0v-1H6V12z 
+			M1,14h0v-1H4V14z 
+			M2,30h0v-1H5V30z"/>
 	<g>
 		<g>
-			<path class="avocado_negentien" d="M22,13v1H8v-1H22z M8,16h14v-1H8V16z"/>
+			<path class="code_orange" 
+				d="M22,5v1H6v-1H22z 
+					M6,8h18v-1H6V16z 
+					M22,15v1H6v-1H22z 
+					M22,17v1H6v-1H22z 
+					M6,20h20v-1H6V16z 
+					M6,22h16v-1H6V16z"/> 
 		</g>
 	</g>
 	<g>
 		<g>
-			<path class="avocado_twintig" d="M17,12h-6v-1h6V12z M21,9H10v1h11V9z"/>
+			<path class="code_mango" 
+				d="M21,1H5v1h10V1z
+					M12,4h-6v-1h6V12z  
+					M19,12h-12v-1h6V12z 
+					M19,14h-14v-1h10V14z 
+					M19,30h-13v-1h8V30z 
+					M19,30h-4v-1h4V30z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="code_light_gray" d="M19,23H9v1h10V14z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="code_gray" d="M16,25H10v1h6V14z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="code_dark" d="M18,27H11v1h7V14z"/>
 		</g>
 	</g>
 </g>
