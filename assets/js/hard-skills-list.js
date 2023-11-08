@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "Bootstrap": "bootstrap.svg",
                 "React": "react.svg",
                 "Insomnia": "insomnia.svg",
+                "Andorid Studio": "android-studio.svg",
             },
             "Versioning": {
                 "Git": "git.svg",
