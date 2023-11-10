@@ -123,6 +123,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
         }
+
+        selector.addEventListener("change", function() {
+            const selectedProject = selector.value;
+
+            let carouselItems = document.querySelectorAll('.carousel-item.projects');
+            carouselItems.forEach(item => item.classList.remove('active'));
+
+            let selectItem = document.getElementById(selectedProject);
+            if (selectItem) {
+                selectItem.classList.add('active');
+            }
+        });
     } catch (error) {
         const projects = document.getElementById("my-projects");
         projects.innerHTML = "<h1 class='text-center'>Something is go wrong.<br>Come back another time.</h1>";
