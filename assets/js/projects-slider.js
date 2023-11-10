@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
             selector.innerHTML += `<option value="${project}" data-bs-target="#my-projects" data-bs-slide-to="${selector.length}" aria-label="${project}" ${aria_current}>${project}</option>`;
-            slider.innerHTML += `<div class="carousel-item projects ${show}">
+            slider.innerHTML += `<div id="${project}" class="carousel-item projects ${show}">
                     <div class="card mx-auto col-10">
                         <div class="row g-0" style="max-height: 320px; height: 32vw;">
                             <div class="col-4 m-0 p-1 h-100 d-flex justify-content-center align-items-center">
