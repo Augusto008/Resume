@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 aria_current = "aria_current=\"true\"";
             }
             if(projects[project].video) {
-                video = ` | <a class="card-text text-decoration-none text-dark" target="_blank" href="${projects[project].video}">Project Video</a>`;
+                video = ` | <a class="card-text text-dark" target="_blank" href="${projects[project].video}">Project Video</a>`;
             }
 
             selector.innerHTML += `<option value="${project}" data-bs-target="#my-projects" data-bs-slide-to="${selector.length}" aria-label="${project}" ${aria_current}>${project}</option>`;
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <div class="card-body">
                                     <h5 class="card-title">${project}</h5>
                                     <p class="card-text">${projects[project].description}</p>
-                                    <p><small class="text-dark"><a class="card-text text-decoration-none text-light" target="_blank" href="${projects[project].link}">Project Link</a>${video}</small></p>
+                                    <p><small class="text-dark"><a class="card-text text-light" target="_blank" href="${projects[project].link}">Project Link</a>${video}</small></p>
                                     <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#proj" aria-controls="proj">Technical Details</button>
                                 </div>
                             </div>
